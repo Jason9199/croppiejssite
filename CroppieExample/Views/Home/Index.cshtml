@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+@Html.Partial("_ImageUploadProfileNewAccount")
+
+
+    <!-- PICTURES  -->
+    <div class="row" style=" margin-left 1px; margin-right 1px">
+
+        <div id="MultiImageProcess">
+
+        </div>
+
+        <div class="col-md-5">
+
+            <div class="center-block">
+
+                <div class="generic-template ib" id="MultiImageDisplay">
+                    <div id="MultiplePictureDisplay">
+                        <div class="picture-thumbnail pictures-max">
+                            <img alt="" class="img-responsive img-empty" src="">
+                        </div>
+                        <div class="picture-thumbnail pictures-max">
+                            <img alt="" class="img-responsive img-empty" src="">
+                        </div>
+                        <div class="picture-thumbnail pictures-max">
+                            <img alt="" class="img-responsive img-empty" src="">
+                        </div>
+                        <div class="picture-thumbnail pictures-max">
+                            <img alt="" class="img-responsive img-empty" src="">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-7 survey-font-size">
+            <div class="ib">
+                <i class="icon icon-info-circle"></i>
+                Upload up to 4 additional images
+            </div>
+            <div class="generic-template ib" id="UserMultiProfilePicDiv">
+                <form class="" id="MultipleImageUpload">
+                    <input type="hidden" id="UserIdImage" name="UserId" value="1" />
+
+                    Drop Image Here
+
+                    <div class="drop-or">
+                        <hr class="hr-or">
+                        <span class="drop-span-or">or</span>
+                    </div>
+
+                    <div class="btn btn-primary larger-button" id="UploadFileButton">Upload File</div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+

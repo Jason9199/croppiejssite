@@ -1,0 +1,27 @@
+/*
+Name: 			ie.css
+Written by: 	Okler Themes - (http://www.okler.net)
+Version: 		3.1.0
+*/
+/* Header */
+html.ie header {
+	background: #fff;
+	filter: none;
+}
+
+/* Navigation */
+html.ie8 header nav ul.nav-main ul.dropdown-menu,
+html.ie9 header nav ul.nav-main ul.dropdown-menu {
+	filter: none !important;
+}
+
+/* Social Icons */
+html.ie8 header ul.social-icons {
+	margin-top: 2px;
+}
+
+
+/* History */
+html.ie8 ul.history li div.thumb {
+	background: none;
+}

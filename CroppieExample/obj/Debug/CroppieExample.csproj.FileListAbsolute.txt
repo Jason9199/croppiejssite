@@ -1,0 +1,137 @@
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\csc.exe
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\vbc.exe
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\VBCSCompiler.exe
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\CroppieExample.dll.config
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\CroppieExample.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\CroppieExample.pdb
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Antlr3.Runtime.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\EntityFramework.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\EntityFramework.SqlServer.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Google.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Newtonsoft.Json.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Owin.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.Helpers.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.Mvc.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.Optimization.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.Razor.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.WebPages.Deployment.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.WebPages.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.WebPages.Razor.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\WebGrease.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.Helpers.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.Mvc.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.Optimization.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.Razor.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.WebPages.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.WebPages.Deployment.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\System.Web.WebPages.Razor.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Antlr3.Runtime.pdb
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Newtonsoft.Json.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\EntityFramework.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\EntityFramework.SqlServer.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Google.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\obj\Debug\CroppieExample.dll
+c:\users\ryanb\documents\visual studio 2015\Projects\CroppieExample\CroppieExample\obj\Debug\CroppieExample.pdb
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\csc.exe
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\vbc.exe
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\CroppieExample.dll.config
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\CroppieExample.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\CroppieExample.pdb
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Antlr3.Runtime.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\EntityFramework.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\EntityFramework.SqlServer.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Newtonsoft.Json.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Owin.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.Helpers.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.Mvc.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.Optimization.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.Razor.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.WebPages.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\WebGrease.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.Helpers.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.Mvc.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.Optimization.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.Razor.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.WebPages.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Antlr3.Runtime.pdb
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Newtonsoft.Json.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\EntityFramework.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\EntityFramework.SqlServer.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\obj\Debug\CroppieExample.csprojResolveAssemblyReference.cache
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\obj\Debug\CroppieExample.dll
+C:\Users\Jason Carpenter\Downloads\croppieexample\CroppieExample\CroppieExample\obj\Debug\CroppieExample.pdb

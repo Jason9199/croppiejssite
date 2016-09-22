@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/Croppie/Croppie.min.js"></script>
+    <script src="~/Scripts/dropzone.min.js"></script>
+    <script src="~/Scripts/home.js"></script>
+    <link rel="stylesheet" href="~/Scripts/Croppie/croppie.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/dropzone.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/account.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/custom.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/global.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/ie.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/search.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/skin.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/survey.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/theme.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/theme-elements.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/theme-responsive.css" type="text/css">
+    @RenderSection("scripts", required: false)
+</body>
+</html>

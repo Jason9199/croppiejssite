@@ -1,0 +1,32 @@
+﻿@model List<Models.UserPictureModel>
+
+@{
+    Layout = null;
+}
+
+<div id="MultiplePictureDisplay">
+    @{
+        int countpic = Model.Count;
+        foreach (var item in Model)
+        {
+            if (!string.IsNullOrEmpty(item._id))
+            {
+                <div class="picture-thumbnail pictures-max">
+                    <div class="picture-thumbnail-hover">
+                        <input value="@item._id" type="hidden">
+                        <a href="javascript:void(0)" class="MultiplePicRemove">Remove</a>
+                    </div>
+                    <div id="ProfileImagediv">
+                        <img alt="" class="img-responsive" src="@item.PicturePath">
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="picture-thumbnail pictures-max">
+                    <img alt="" class="img-responsive img-empty" src="@item.PicturePath">
+                </div>
+            }
+        }
+    }
+</div>

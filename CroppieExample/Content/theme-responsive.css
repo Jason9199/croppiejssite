@@ -1,0 +1,862 @@
+/*
+Name: 			theme-responsive.css
+Written by: 	Okler Themes - (http://www.okler.net)
+Version: 		3.1.0
+*/
+
+@media (max-width: 1024px) {
+}
+ @media (max-width: 900px) {
+/* Logo */
+#header h1.logo img {
+	display: block;
+	max-width: 300px;
+}
+#header.center h1.logo {
+	text-align: left;
+}
+/* Home Slider */
+.slider-container {
+	min-height: 0;
+}
+/* Thumbnails */
+.thumbnail {
+	border: 0;
+	text-align: center;
+}
+/* Featured Boxes */
+.featured-boxes .featured-box {
+	max-width: 350px;
+}
+/* Login */
+#header nav.mega-menu ul.nav-main .mega-menu-signin {
+	margin-right: 0;
+}
+#header nav.mega-menu ul.nav-main .mega-menu-signin a {
+	color: #FFF;
+}
+#header nav.mega-menu ul.nav-main .mega-menu-signin a .icon-angle-down {
+	display: none !important;
+}
+#header nav.mega-menu ul.nav-main .mega-menu-signin ul.dropdown-menu {
+	margin: 25px 0 0 0 !important;
+	padding: 0 0 0 8px;
+	width: 100%;
+	right: 0;
+}
+#header nav.mega-menu ul.nav-main .mega-menu-signin ul.dropdown-menu li a {
+	color: #FFF;
+	padding: 6px 0 !important;
+}
+#header nav.mega-menu ul.nav-main .mega-menu-signin.logged .user-avatar strong, #header nav.mega-menu ul.nav-main .mega-menu-signin.logged .user-avatar span {
+	color: #FFF !important;
+}
+#header nav.mega-menu ul.nav-main .mega-menu-signin.logged .list-account-options {
+	margin: 25px 0 0 0 !important;
+}
+#header nav.mega-menu ul.nav-main .mega-menu-signin.logged .list-account-options a {
+	color: #FFF !important;
+}
+#header nav.mega-menu ul.nav-main .mega-menu-signin.logged .list-account-options a:hover {
+	color: #FFF !important;
+}
+}
+ @media (max-width: 768px) {
+/* Header */
+#header {
+	display: block;
+}
+#header > .container {
+	width: 100%;
+}
+#header.center nav {
+	width: auto;
+}
+/* Footer */
+#footer .phone {
+	font-size: 20px;
+}
+}
+ @media (max-width: 479px) {
+/* Base */
+body {
+	font-size: 13px;
+}
+h2 {
+	line-height: 40px;
+}
+/* Arrow */
+.arrow {
+	display: none;
+}
+/* Page Top */
+.page-top {
+	padding: 16px 0;
+}
+.page-top h2 {
+	line-height: 38px;
+}
+/* History */
+ul.history li .thumb {
+	display: none;
+}
+ul.history li .featured-box {
+	margin-left: 0;
+}
+/* Blog */
+ul.comments li {
+	border-left: 8px solid #DDDDDD;
+	clear: both;
+	padding: 0 0 0 10px;
+}
+ul.comments li .img-thumbnail {
+	display: none;
+}
+ul.comments .comment-arrow {
+	display: none;
+}
+article.post-large {
+	margin-left: 0;
+}
+article.post-large .post-image, article.post-large .post-date {
+	margin-left: 0;
+}
+/* Page 404 */
+.page-not-found {
+	margin: 0;
+}
+.page-not-found h2 {
+	font-size: 100px;
+	letter-spacing: 0;
+	line-height: 100px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/*====================New Responsive Css 30 Aug 2016=============================*/
+/*========Home page====================*/
+img {
+	max-width: 100%;
+	height: auto;
+}
+#MemberlstDiv {
+  width: 70%;
+}
+/*========Home page====================*/
+ @media only screen and (max-width:1200px) {
+.center-footer {
+	display: block;
+	margin: 0 -15px;
+}
+.followus {
+	margin: 0 0 0 6%;
+	min-width: inherit;
+}
+#footer {
+	height: auto !important;
+}
+.user_result {
+  padding: 0 15px;
+  width: 100% !important;
+}
+.map_result {
+  padding: 15px 15px 0 !important;
+  width: 100% !important;
+}
+}
+ @media only screen and (max-width:991px) {
+.followus {
+	margin: 0 0 0 -4%;
+}
+#header .logo {
+	display: block;
+	font-size: 0;
+	line-height: normal;
+	margin: 0;
+	padding: 8px 0;
+}
+#header .logo a {
+	display: block;
+	font-size: 0;
+	line-height: normal;
+	vertical-align: middle;
+}
+#header h1.logo img {
+	display: block;
+}
+#header > .container {
+	height: auto;
+}
+.figure-img-bottom, .figure-img {
+	display: none;
+}
+.features-second-row {
+	margin-top: 0;
+}
+.search_budget b {
+	margin-left: 15px !important;
+}
+.profile-thumbnail {
+	margin: 0 auto 15px !important;
+}
+.account-settings .col-md-12 {
+	width: 100% !important;
+}
+.featured-box h9, .featured-box h8 {
+	font-size: 24px;
+}
+.create-text {
+	font-size: 18px;
+}
+/*======http://staging.roommatefilter.com/newaccount/Survey====(Newaccount/survey page css)===*/
+
+.tab-content .padding-top .col-md-3 {
+	float: left;
+	padding-right: 0;
+}
+.tab-content .padding-top .col-md-6 {
+	float: right;
+	padding-left: 0;
+}
+.generic-template .survey-font-size .col-md-12 {
+	text-align: center;
+}
+button.LocationModelBtn {
+	margin: 10px 0 0;
+}
+textarea.chkBlankValid, .generic-template fieldset .row .col-md-6 textarea {
+	display: block;
+	width: 100%;
+}
+/*======http://staging.roommatefilter.com/newaccount/Survey====(Newaccount/survey page css)===*/
+
+/*=====UI - Search - Results =======*/
+#googlemaps {
+	display: block !important;
+	width: 100% !important;
+}
+.user_result {
+	display: block;
+	float: none;
+	padding-left: 10px;
+	padding-right: 0;
+	width: 100%;
+}
+.map_result {
+	display: block;
+	float: none;
+	padding: 0;
+	width: 100%;
+}
+/*=====UI - Search - Results =======*/
+
+/*=========http://staging.roommatefilter.com/Account/Message====================*/
+#MemberlstDiv {
+  width: 100%;
+}
+/*=========http://staging.roommatefilter.com/Account/Message====================*/
+
+/*==================UI - Detail Page - Send Message =========================*/
+.col-xs-8.col-sm-4.col-md-12 {
+  width: 100%;
+}
+.col-xs-12.col-sm-4.col-md-12.padding-no {
+  width: 100%;
+}
+.col-xs-12.col-sm-4.col-md-12 {
+  width: 100%;
+}
+.detail_section .pull-left {
+  padding: 0 0 5px !important;
+}
+.page-top {
+  min-height: inherit;
+  padding: 5px 0;
+}
+.page-top h2 {
+  font-size: 24px;
+  line-height: normal;
+  margin: 0;
+  min-height: inherit;
+  padding: 0;
+}
+.user_search_result_panel .content {
+  margin: 0;
+  max-width: 49% !important;
+}
+/*==================UI - Detail Page - Send Message =========================*/
+
+}
+ @media only screen and (max-width:767px) {
+.contact-details {
+	display: block;
+	float: none !important;
+	min-width: inherit !important;
+	width: 100%;
+}
+.followus {
+	display: block;
+	float: none;
+	margin: 0;
+	min-width: inherit !important;
+	padding-bottom: 15px;
+	width: 100%;
+}
+.checkblog {
+	display: block;
+	float: none;
+	min-width: inherit !important;
+	width: 100%;
+}
+#footer .checkblog h4 {
+	display: inline-block;
+	margin: 0 15px 0 0;
+	vertical-align: middle;
+}
+.checkblog .btn-lg {
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: normal;
+	padding: 5px 12px;
+}
+.social-icons {
+	display: block;
+	padding: 10px 0 0;
+}
+ul.social-icons li {
+	margin: -1px 5px 5px 0;
+}
+.footer-connected {
+	margin: 0;
+	padding-bottom: 20px;
+	text-align: left;
+}
+#header h1.logo img {
+	max-width: 250px;
+}
+.container #home-top-inner-lead h1 {
+	font-size: 40px !important;
+	margin: 0 !important;
+}
+.container #home-top-inner-lead .sub-h1 {
+	font-size: 20px!important;
+	line-height: normal!important;
+	margin: 0 0 10px !important;
+}
+#home-top {
+	min-height: inherit!important;
+}
+#home-top .container {
+	margin: 10% auto !important;
+}
+#header button.navbar-toggle {
+	background: #0095e0 none repeat scroll 0 0;
+	display: block;
+	float: none;
+	margin: 0;
+	opacity: 1;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	visibility: visible;
+	z-index: 5;
+}
+.navbar-toggle .icon-bar {
+	background: #fff none repeat scroll 0 0;
+}
+/* Header */
+#header {
+	clear: both;
+}
+#header > .container {
+	margin-bottom: 0;
+}
+#header .search {
+	display: none;
+}
+#header .nav-main-collapse {
+	top: 8px;
+	position: relative;
+	background: #171717;
+	max-height: none;
+	width: 100%;
+	overflow: hidden;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+#header .nav-main-collapse.in {
+	width: 100%;
+	overflow: hidden;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+#header .nav-main {
+	padding: 10px 0;
+	clear: both;
+	display: block;
+	float: none;
+	width: 100%;
+}
+#header .nav-main ul {
+	padding: 0;
+	margin: 0;
+}
+#header .nav-main ul li {
+	padding: 0;
+	margin: 0;
+	clear: both;
+	float: none;
+	display: block;
+	border-bottom: 1px solid #2A2A2A;
+}
+#header .nav-main ul li:last-child {
+	border-bottom: none;
+}
+#header .nav-main ul ul {
+	margin-left: 20px !important;
+}
+#header .nav-main ul.nav-main {
+	float: none;
+	position: static;
+	margin: 8px 0;
+	margin-right: -10px;
+}
+#header .nav-main ul.dropdown-menu {
+	position: static;
+	clear: both;
+	float: none;
+	display: none !important;
+}
+#header .nav-main li.resp-active > ul.dropdown-menu {
+	display: block !important;
+}
+#header nav ul.nav-main > li + li {
+	margin-left: 0;
+}
+#header nav ul.nav-main li a {
+	color: #FFF;
+	clear: both;
+	float: none;
+	display: block;
+	padding: 9px 8px;
+	border: 0;
+	border-top: 0;
+	margin: 0;
+}
+#header nav ul.nav-main li a i.icon-angle-down {
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+#header nav ul.nav-main li.dropdown:hover > a {
+	margin-bottom: -2px;
+}
+#header nav ul.nav-main ul.dropdown-menu {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#header nav ul.nav-main ul.dropdown-menu li > a {
+	padding: 9px 8px;
+	border: 0;
+	border-top: 0;
+	margin: 0;
+	border-bottom: none;
+}
+#header nav ul.nav-main ul.sub-menu {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+#header.center nav ul.nav-main > li {
+	display: block;
+}
+body #header nav ul.nav-main ul.dropdown-menu {
+	background: none !important;/*background-color: transparent !important;*/
+}
+body #header nav ul.nav-main li.dropdown.open .dropdown-toggle, body #header nav ul.nav-main li a, body #header nav ul.nav-main li > a:hover, body #header nav ul.nav-main li.active a, body #header nav ul.nav-main li.dropdown:hover a {
+	background: none !important;
+	background-color: transparent !important;
+}
+body #header nav ul.nav-main ul.dropdown-menu li:hover > a, body #header nav ul.nav-main li.dropdown:hover ul.dropdown-menu li > a:hover {
+	background: none !important;
+	background-color: transparent !important;
+}
+#mainMenu > li.mega-menu-item.mega-menu-fullwidth.signin a {
+	color: #fff !important;
+}
+#header .nav-main-collapse {
+  margin: 0;
+}
+/*====================http://staging.roommatefilter.com/Account Header menu======================*/
+#header .nav-main ul li.account {
+	display: none;
+}
+#header .nav-main ul li.signin.logged.account {
+	display: block;
+}
+#header .nav-main ul li.signin.logged.account a.dropdown-toggle {
+	display: none;
+}
+#header .nav-main ul li.signin.logged.account ul.dropdown-menu, #header .nav-main ul li.signin.logged.account ul#detail-dropdown-menu {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+	border: medium none!important;
+	box-shadow: none!important;
+	color: #fff!important;
+	display: block !important;
+	left: inherit!important;
+	right: inherit!important;
+}
+#header .nav-main ul li.signin.logged.account ul.dropdown-menu li ul {
+	margin: 0 !important;
+}
+#header .nav-main ul li.signin.logged.account ul.dropdown-menu li ul li {
+  border-bottom: 1px solid #2a2a2a;
+  border-top: medium none;
+  font-size: 16px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+#header .nav-main ul li.signin.logged.account ul.dropdown-menu li ul li:last-child {
+	border-bottom: none;
+}
+#header .nav-main ul li.signin.logged.account ul.dropdown-menu li .profile-dropdownmenu ul li i {
+  display: block;
+  font-size: 16px;
+  left: 8px;
+  margin-left: 0;
+  position: absolute;
+  top: 9px;
+  width: 20px; 
+}
+#header .nav-main ul li.signin.logged.account ul.dropdown-menu li .profile-dropdownmenu ul li a {
+  color: #fff !important; 
+  display: block;
+  padding: 9px 8px 9px 35px !important;
+  width: auto;
+}
+/*==================UI - Detail Page - Send Message =========================*/
+.NoMessageclass {
+  font-size: 24px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.detail_section.row .col-sm-12 {
+  padding: 0;
+}
+.Interest-Section .col-sm-3, .Interest-Section .col-sm-9 {
+  padding: 0;
+}
+/*==================UI - Detail Page - Send Message =========================*/
+
+
+/*====================http://staging.roommatefilter.com/Account Header menu======================*/
+
+
+/*==============Account Settings==============*/
+#ProfilePictureForm .drop-or, .dz-message {
+	display: none;
+}
+#ProfilePictureForm {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: medium none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#ProfilePictureForm .larger-button {
+	font-size: 16px;
+	margin: 0;
+}
+.account-settings .survey-font-size input[type="checkbox"] {
+	clear: inherit !important;
+	display: inline-block;
+	float: left;
+	line-height: normal;
+	margin: 5px 8px 0 0;
+	text-align: left !important;
+}
+.account-settings .survey-font-size label {
+	clear: inherit !important;
+	display: inline-block !important;
+	float: left;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 5px;
+	max-width: inherit;
+	text-align: left;
+	vertical-align: top;
+	width: 90%;
+}
+.generic-template .form-group.survey-font-size .row .col-md-12 {
+	margin: 0 auto;
+	max-width: 250px;
+	padding: 0;
+}
+.generic-template .form-group.survey-font-size .row .col-md-12 .btn.btn-primary {
+	float: right;
+	margin: 0 !important;
+	text-align: right;
+}
+.generic-template #MultipleImageUpload {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  border: medium none !important;
+  font-size: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#MultipleImageUpload .drop-or {
+  display: none !important;
+}
+#UserMultiProfilePicDiv {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  padding: 10px 0 0;
+}
+#UploadFileButton {
+  float: right !important;
+  font-size: 16px !important;
+  margin: 0 !important;
+  padding: 5px 10px !important;
+}
+.account-settings #ProfilePictureForm {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  border: medium none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#pictures .survey-font-size {
+  background: #eff2f5 none repeat scroll 0 0;
+  display: block;
+  margin: 0 15px;
+  padding: 10px;
+  width: auto;
+}
+.social-box.social-blue.social-bordered {
+  display: none;
+}
+ul.simple-post-list .post-meta {
+  font-size: 13px !important;
+}
+.inactive-notice {
+  font-size: 14px !important;
+   padding: 10px !important;
+}
+.inactive-notice strong {
+  display: block;
+  font-size: 18px;
+}
+.inactive-notice a {
+  clear: both;
+  cursor: inherit;
+  display: block;
+}
+.inactive-notice .btn-lg {
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 5px 0 0;
+  padding: 5px 12px;
+}
+.checkbox-inline + .checkbox-inline, .radio-inline + .radio-inline {
+  margin-left: 0;
+}
+.form-group div.survey-font-size, .row div.col-md-12.survey-font-size {
+  float: left;
+  line-height: normal !important;
+  padding: 0 15px !important;
+  width: 100%;
+}
+.account-settings .radio-inline {
+  margin-left: 0 !important;
+}
+.account-settings .checkbox,.account-settings .radio {
+  margin-top: 0 !important;
+}
+.account-settings div label.radio:last-child {
+  margin-bottom: 0 !important;
+}
+.account-settings .survey-font-size label.radio-inline, .account-settings .survey-font-size label.radio {
+  font-size: 14px;
+  font-weight: 400;
+}
+.radio-inline input[type="radio"], .radio input[type="radio"] {
+  margin-top: 0 !important;
+}
+.radio, .radio-inline {
+  min-height: inherit !important;
+}
+#aboutme fieldset .row {
+  margin-top: 10px;
+}
+#UserProfilePicDiv {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+}
+#ProfilePictureForm .larger-button {
+  float: right;
+}
+/*==============Account Settings==============*/
+
+/*==================UI - Detail Page - Send Message =========================*/
+#MemberlstDiv {
+  padding-bottom: 10px; 
+  padding-top: 10px;
+  width: 100%;
+}
+.col-sm-12.width-30 {
+  width: 100%;
+}
+.col-xs-8.col-sm-4.col-md-12 {
+  max-width: 300px;
+  width: 100%;
+}
+.detail_right_side {
+  display: block;
+  float: none !important;
+  padding: 0 15px;
+  width: 100%;
+}
+.col-sm-12.width-70 {
+  width: 100%;
+}
+.detail_section .font-30 {
+  font-size: 18px !important;
+}
+.detail_section .pull-left {
+  display: block;
+  float: none !important;
+  padding: 0 0 5px !important;
+}
+.detail_text {
+  margin: 0;
+}
+.caption .btn {
+  font-size: 14px !important;
+}
+.width-70 .detail_section.row .no-padding-rigth {
+  padding: 0;
+  width: auto;
+}
+.Interest-Section .col-sm-6 {
+  padding: 0;
+}
+/*==================UI - Detail Page - Send Message =========================*/
+
+/*==================UI - Search map =========================*/
+.user_search_result_panel .button_hover {
+  display: block;
+}
+.search_budget span {
+  font-size: 14px;
+  margin: 0;
+}
+.search_text {
+  margin-right: 0 !important;
+  width: 100% !important;
+}
+/*==================UI - Search map =========================*/
+
+}
+ @media only screen and (max-width:639px) {
+.container #home-top-inner-lead h1 {
+	font-size: 30px !important;
+	height: auto !important;
+	line-height: normal !important;
+	margin: 0 0 5px !important;
+}
+.container #home-top-inner-lead .sub-h1 {
+	font-size: 16px !important;
+	margin: 0 0 8px !important;
+}
+#home-top-inner-lead .btn-signup {
+	border-radius: 4px;
+	font-size: 14px;
+	margin: 5px 0 0;
+	padding: 6px 10px;
+}
+#home-top-inner-lead {
+	padding: 10px 10px 15px;
+}
+.input-medium {
+	padding: 3px 5px !important;
+}
+.generic-template {
+	margin-left: 0 !important;
+}
+.tab-pane .center-block {
+	text-align: center;
+}
+.pictures-max {
+	display: inline-block !important;
+	float: none !important;
+	margin: 5px !important;
+}
+/*=====UI - Search - Results =======*/
+.search_panel {
+	margin: 0 -15px;
+	padding: 15px 0 !important;
+}
+#results_text {
+	margin-left: 0 !important;
+}
+.search_budget .slider {
+	margin-left: 10px !important;
+}
+/*=====UI - Search - Results =======*/
+}
+ @media only screen and (max-width:479px) {
+.container #home-top-inner-lead h1 {
+	font-size: 24px !important;
+}
+.container #home-top-inner-lead .sub-h1 {
+	font-size: 14px !important;
+	margin: 0 0 5px !important;
+}
+#header h1.logo img {
+	max-width: 230px;
+}
+.nav-tabs li a {
+	font-size: 12px !important;
+	padding: 10px 5px !important;
+}
+
+/*======http://staging.roommatefilter.com/newaccount/Survey====(Newaccount/survey page css)===*/
+.tab-content .padding-top .col-md-3 .btn, .tab-content .padding-top .col-md-6 .btn {
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 5px 10px;
+}
+.tab-content .padding-top {
+	margin: 15px 0 0;
+}
+.tab-content .padding-top .col-md-3 {
+	padding: 0 5px 0 0;
+}
+.tab-content .padding-top .col-md-6 {
+	padding: 0;
+}
+#MultipleImageUpload {
+	font-size: 1.5em !important;
+}
+#MultiImageDisplay {
+	padding: 0 !important;
+}
+#MultiplePictureDisplay .pictures-max {
+	height: 115px;
+	max-width: 115px;
+	width: 115px;
+}
+.modal-footer .btn {
+  font-size: 13px;
+  padding: 6px 10px;
+}
+/*======http://staging.roommatefilter.com/newaccount/Survey====(Newaccount/survey page css)===*/
+}

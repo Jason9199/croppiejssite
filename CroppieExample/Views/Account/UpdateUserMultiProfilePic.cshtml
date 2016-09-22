@@ -1,0 +1,65 @@
+﻿@model Models.UserPictureModel
+
+@{
+    Layout = null;
+}
+
+<style>
+    #MultipleImageUpload {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+        border: 4px dashed rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        float: left;
+        font-size: 2em;
+        font-weight: bold;
+        height: 100%;
+        line-height: 30px;
+        margin: 0 20px 20px 0;
+        padding: 59px 0;
+        text-align: center;
+        width: 100%;
+        cursor: pointer;
+    }
+</style>
+
+<div class="row">
+    <div id="MultiImageProcess">
+
+    </div>
+
+    <div class="col-md-5">
+
+        <div class="center-block">
+
+            <div class="generic-template ib" id="MultiImageDisplay" data-url="/Account/MultiImageDisplay">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-md-7 survey-font-size">
+        <div class="ib">
+            <i class="icon icon-info-circle"></i>
+            Upload up to 4 additional images
+        </div>
+        <div class="generic-template ib" id="UserMultiProfilePicDiv">
+            <form class="" id="MultipleImageUpload">
+
+                Drop Image Here
+
+                <div class="drop-or">
+                    <hr class="hr-or">
+                    <span class="drop-span-or">or</span>
+                </div>
+
+                @*<button type="button" class="btn btn-primary larger-button">Upload File</button>*@
+                <div class="btn btn-primary larger-button" id="UploadFileButton">Upload File</div>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+

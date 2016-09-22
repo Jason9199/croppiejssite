@@ -1,0 +1,49 @@
+
+/* Make all images responsive! */
+img {
+    /* display: block; */
+    height: auto;
+    max-width: 100%;
+}
+  
+/* COLORS FOR THEME */
+ 
+.page-top {
+	background-color: #536267 !important;
+}
+
+body {
+	background-color: #A8BFD6 !important;
+}
+
+#footer {
+	/*background: #A7DBD8 !important; light blue */
+	background: #263760 !important;
+}
+
+#footer .footer-copyright {
+	/* background: #69D2E7 !important;  light blue */
+	background: #192648 !important;
+}
+
+.width-30 {
+width:30%;
+}
+
+.width-70 {
+width:70%;
+}
+
+/* COLORS FOR THEME */
+
+
+
+
+
+  
+
+
+
+
+
+

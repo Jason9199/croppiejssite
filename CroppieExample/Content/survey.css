@@ -1,0 +1,198 @@
+.find-roommates {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.circular-bar-survey {
+	margin-top: 30px;
+}
+
+.circular-bar-survey div {
+	float: left !important;
+}
+
+.circular-bar-content-survey {
+	color: aaa;
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.modal-content.find-roommates {
+	height: 340px;
+}
+
+/* Wizard Navigation Bar */
+
+.visuallyhidden {
+    display: none;
+}
+
+.wizard-progress {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.wizard-progress li {
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+    position: relative;
+    width: 100px;
+	margin-bottom: 15px;
+}
+
+.wizard-progress .step-name {
+    display: table-cell;
+    height: 32px;
+    vertical-align: bottom;
+    text-align: center;
+    width: 100px;
+	text-decoration: none;
+	cursor: default;
+	font-size: 18px;
+}
+
+.wizard-progress .step-name-wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: bottom;
+}
+
+.wizard-progress .step-num {
+    font-size: 14px;
+    font-weight: bold;
+	border-radius: 75px;
+	width: 35px;
+	height: 35px;
+	border: 1px solid #aaa;
+    display: inline-block;
+    margin-top: 10px;
+	line-height: 2.4;
+}
+
+.wizard-progress .step-num:after {
+    content: "";
+    display: block;
+    background: #aaa;
+    height: 1px;
+    width: 117px;
+    position: absolute;
+    bottom: 15px;
+    left: 66px;
+}
+
+.wizard-progress li:last-of-type .step-num:after {
+    display: none;
+}
+
+.wizard-progress .active .step-num {
+    background-color: white;
+}
+
+@media (min-width: 750px) and (max-width: 992px) {
+	.circular-bar-content-survey {
+		display: inline;
+		position: absolute;
+		margin-top: 50px;
+		margin-left: -100px;
+	}
+}
+
+/* Hide percentage complete */
+@media (max-width: 749px) {
+	.circular-bar-content-survey, .circular-bar-survey {
+		display: none;
+	}
+}
+
+/* Rework how we show the number tabs */
+@media (min-width: 451px) and (max-width: 645px) {
+	.wizard-progress {
+		margin-left: -15px;
+	}
+	.wizard-progress .step-name {
+		font-size: 16px;
+		width: 80px;
+	}
+	.wizard-progress .step-num {
+		width: 28px;
+		height: 28px;
+		font-size: 14px;
+		line-height: 1.8;
+		margin-top: 5px;
+	}
+	.wizard-progress .step-num:after {
+		width: 79px;
+		bottom: 11px;
+		left: 53px;
+	}
+	.wizard-progress li {
+		margin-right: 25px;
+		width: 80px;
+	}
+
+	div.survey-font-size .radio-inline {
+		line-height: 1 !important;
+	}
+	
+}
+
+
+@media (max-width: 450px) {
+	.wizard-progress {
+		margin-left: -15px;
+	}
+	.wizard-progress .step-name {
+		display: none;
+	}
+	.wizard-progress .step-num:after {
+		width: 26px;
+		bottom: 15px;
+		left: 49px;
+	}
+	.wizard-progress li {
+		margin-right: 0px;
+		width: 61px;
+	}
+	
+	.generic-template {
+		margin-left: -15px;
+	}
+	
+	.input-medium {
+		font-size: 14px;
+		padding: 3px 2px;
+	}
+	
+	.btn-group {
+		float: left !important;
+	}
+	
+	.btn-group>.btn {
+		font-size: 12px;
+	}
+	
+	/* Settings needed so far for the contact settings */
+	.radio-inline {
+		display: block;
+		margin-left: 10px;
+	}
+	
+	div.survey-font-size .radio-inline {
+		line-height: 1 !important;
+		margin-bottom: 5px;
+	}
+	
+	.form-group div.survey-font-size .radio {
+		line-height: 1 !important;
+	}
+	
+	.radio-inline input[type="radio"], .radio input[type="radio"] {
+		margin-top: 0px;
+	}
+	
+}

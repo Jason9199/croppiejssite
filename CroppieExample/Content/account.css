@@ -1,0 +1,462 @@
+form label {
+	font-weight: bold;
+}
+
+.margin-top-5 {
+    margin-top:5px;
+}
+
+.margin-left-20 {
+    margin-left:20px;
+}
+
+.spacing {
+    margin-top: 40px;
+}
+
+.survey-font-size-label {
+	margin-right: 5px;
+	float: left;
+}
+
+.survey-font-size {
+	font-size: 16px;
+	line-height: 2;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+/* This should only affect labels that are above controls on a line by themselves.  The controls should all have form group before the label */
+/*.row div.col-md-12.survey-font-size {
+	line-height: 0;
+	padding-bottom: 5px;
+	padding-top: 10px;
+}
+
+.form-group div.survey-font-size {
+	line-height: 1;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}*/
+.form-group div.survey-font-size, .row div.col-md-12.survey-font-size {
+	line-height: 1;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+    .form-group div.survey-font-size .radio {
+	line-height: 0;
+}
+
+
+div label.radio:last-child {
+	margin-bottom: -15px;
+}
+
+
+
+/*   Profile Picture */
+
+.picture-thumbnail, .detail-thumbnail {
+	height: 100%;
+	width: 100%;
+	max-width: 250px;
+    max-height: 250px;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 20px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	float: left;
+	margin-right: 15px;
+	position:relative;
+}
+
+.profile-thumbnail {
+	min-height: 200px;
+	min-width: 200px;
+	max-width: 250px;
+    max-height: 250px;
+	overflow: hidden;
+	display: block;
+	/*margin-bottom: 20px;*/
+	/*line-height: 1.42857143;*/
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	/*float: left;*/
+	/*margin-right: 15px;*/
+	position:relative;
+
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.profile-info  {
+	display: inline-block;
+	background-color: #0088cc;
+	height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.profile-thumbnail-hover, .picture-thumbnail-hover {
+	display: none;
+}
+
+.picture-thumbnail-hover i {
+	font-size: 32px;
+	margin-right: 5px;
+	margin-left: 5px;
+	opacity: 1;
+	color: white;
+	margin-top: 5px;
+}
+
+.pictures-max {
+	height: 150px;
+	width: 150px;
+	max-width: 150px;
+}
+
+.profile-thumbnail-empty {
+    height: 150px;
+	width: 150px;
+	max-width: 150px;
+}
+
+.profile-thumbnail-hover a, .picture-thumbnail-hover a {
+	color: #ccc;
+}
+
+.profile-thumbnail-hover a:hover, .picture-thumbnail-hover a:hover {
+	color: #0088cc;
+}
+
+.profile-thumbnail:hover .profile-thumbnail-hover {
+	display: block;
+	z-index: 99999;
+	position: absolute;
+	height: 45px;
+	vertical-align: center;
+	/*margin-top: 195px;*/
+    bottom: 0px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+}
+
+.picture-thumbnail:hover .picture-thumbnail-hover {
+	display: block;
+	z-index: 99999;
+	position: absolute;
+	height: 45px;
+	vertical-align: center;
+	margin-top: 105px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+}
+
+.profile-thumbnail:after, .picture-thumbnail:after {
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    top: 0;
+    left: 0;
+}
+
+.profile-thumbnail:hover:after, .picture-thumbnail:hover:after {
+    opacity: 1;
+}
+
+.profile-thumbnail:after, .picture-thumbnail:after {
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    top: 0;
+    left: 0;
+}
+
+.profile-info i, .profile-info p {
+	display: inline-block;
+	font-size: 16px;
+	color: white;
+}
+
+.img-empty {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*  Drag and Drop */
+
+#drop-files {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	border: 4px dashed rgba(0,0,0,0.2);
+	padding: 59px 0 59px 0;
+	text-align: center;
+	font-size: 2em;
+	float: left;
+	font-weight: bold;
+	margin: 0 20px 20px 0;
+	background: rgba(0,0,0,0.1);
+	line-height: 30px;
+}
+
+#dropped-files {
+	float: left;
+	position: relative;
+	width: 560px;
+	height: 125px;
+}
+
+#upload-button {
+	position: absolute;
+	top: 87px;
+	z-index: 9999;
+	width: 210px;
+	display: none;
+}
+
+#dropped-files .image {
+	height: 200px;
+	width: 300px;
+	border: 4px solid #fff;
+	position: absolute;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	background: #fff;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+#upload-button .ss-upload {
+	font-size: 0.7em;
+}
+
+#upload-button a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	box-shadow: 0 0 1000px 62px rgba(255, 255, 255, 1), inset 0 -35px 40px -10px #0A9FCA;
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #4bc1e3;
+	border-radius: 10px;
+}
+
+#upload-button span {
+	display: block;
+	width: 160px;
+	text-align: center;
+	margin: 20px 0 0 0;
+	background: white;
+	border-radius: 10px;
+	font-size: 1.1em;
+	padding: 4px 0;
+	position: relative;
+	left: -14px;
+}
+
+#upload-button a:hover {
+	box-shadow: 0 0 1000px 62px rgba(255, 255, 255, 1), inset 0 -5px 40px 0px #0A9FCA;	
+}
+
+.drop-or {
+    position: relative;
+    font-size: 18px;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.drop-span-or {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -2px;
+	margin-left: -25px;
+	background-color: #D6D9DC;
+	width: 50px;
+	text-align: center;
+}
+
+.hr-or {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.generic-template.ib {
+	padding-bottom: 0px;
+}
+
+
+/*  Password  */
+
+input[data-psswrd-checkbox] {
+	position: absolute;
+	bottom: 16px;
+}
+
+.data-psswrd-text {
+	cursor: pointer;
+}
+
+.data-psswrd-text {
+	line-height: 35px;
+	/*font-size: 10px; */
+	margin: 5px 0 0 20px;
+}
+
+.no-line-height label {
+	line-height: 0;
+}
+
+/* ROOM */
+
+input[type="radio"] {
+	margin-left: 0px;
+	margin-right: 5px;
+}
+
+h4 {
+	color: #0088cc;
+	margin-left: 15px;
+}
+
+#room hr, #questionnaire hr, #aboutme hr, #interests hr {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+	border: 0;
+    height: 1px;
+    background: #CCC;
+	position: relative;
+}
+
+    #room hr:before, #questionnaire hr:before, #aboutme hr:before, #interests hr:before {
+  content: " ";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 75px;
+  border: 1px solid #536267;
+  background-color: white; 
+  bottom: -7px;
+}
+
+
+#room h3, #questionnaire h3, #aboutme h3, #interests h3 {
+	color: #CCC;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	margin: 0px;
+	margin-left: 20px;
+}
+
+#room .spacing, #questionnaire .spacing, #aboutme .spacing {
+	margin-top: 40px;
+}
+
+
+@media (min-width: 299px) and (max-width: 493px) {
+
+	.input-medium {
+		font-size: 14px;
+		padding: 3px 2px;
+	}
+	
+	.btn-group {
+		float: left !important;
+	}
+
+    .btn-group > .btn {
+        font-size: 12px;
+    }
+}
+
+
+
+
+ .tt-query {
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    }
+
+    .tt-hint {
+        color: #999;
+    }
+
+    .tt-menu { /* used to be tt-dropdown-menu in older versions */
+        width: 422px;
+        margin-top: 4px;
+        padding: 4px 0;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+        -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+        box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    }
+
+    .tt-suggestion {
+        padding: 3px 20px;
+        line-height: 24px;
+    }
+
+        .tt-suggestion.tt-cursor, .tt-suggestion:hover {
+            color: #fff;
+            background-color: #0097cf;
+        }
+
+        .tt-suggestion p {
+            margin: 0;
+        }
+
+    .twitter-typeahead, .tt-dataset, .tt-suggestion, .tt-hint, .tt-input, .tt-menu {
+        width: 100% ! important;
+    }
